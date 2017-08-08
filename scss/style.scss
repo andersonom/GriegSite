@@ -1,0 +1,551 @@
+
+/************************************************** INCLUDES ******************************/
+@import "_components/_variables";
+@import "_components/_reset";
+@import "_components/_grid";
+@import "_components/_breadcrumb";
+@import "_components/_form-custom";
+@import "_components/_editor";
+
+/************************************************** GLOBAL ******************************/
+body{
+  background: url(../images/bg-body.jpg) center 100px no-repeat;
+
+  header{
+    min-height: 100px;
+  }
+}
+
+body#home{
+  /*&.pt{
+    background: url(../images/bg-body-home-pt.jpg) center 100px no-repeat;
+  }
+
+  &.en{
+    background: url(../images/bg-body-home-en.jpg) center 100px no-repeat;
+  }*/
+
+  header{
+    min-height: 578px;
+  }
+}
+
+.global-label{
+  font-size: 12px;
+  color: $color-3;
+  float: left;
+
+  text-shadow: 0 1px 0 #fff;
+}
+
+.space-60{
+  display: block;
+  width: 100%;
+  height: 60px;
+  float: left;
+}
+
+.color-1{
+  color: $color-1;
+}
+
+.color-2{
+  color: $color-2;
+}
+
+.color-3{
+  color: $color-3;
+}
+
+/************************************************** HEADER ******************************/
+.logo{
+  max-width: 100%;
+}
+
+.social{
+  .global-label{
+    padding: 4px 0;
+  }
+
+  &-ico{
+    padding: 2px 8px;
+    display: block;
+    float: left;
+
+    color: #fff;
+  }
+
+  &-fb{
+    background: #47639e;
+  }
+
+  &-tw{
+    background: #55acee;
+  }
+}
+
+header{
+  /*position: relative;*/
+
+  .main{
+    width: 100%;
+    min-width: $wrapper + 20px;
+    min-height: 253px;
+    background: url(../images/bg-header.png) center top no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+  }
+
+  .global-label{
+    margin-right: 14px;
+  }
+
+  .social{
+    margin-top: 30px;
+  }
+
+  .logo{
+    margin-top: 60px;
+    display: block;
+  }
+
+  /**********/
+}
+
+.rotator{
+  margin-top: 126px;
+  position: relative;
+
+  &:before{
+    display: block;
+    width: 390px;
+    height: 295px;
+    background: url(../images/people.png) center no-repeat;
+    position: absolute;
+    bottom: -149px;
+    right: 45px;
+    z-index: 2;
+
+    content: " "
+  }
+
+  .grid-10{
+    margin-top: 150px;
+  }
+
+  .grid-14{
+    position: relative;
+
+    &:before{
+      display: block;
+      width: 556px;
+      height: 361px;
+      background: url(../images/bg-inner-header.png) center no-repeat;
+      position: absolute;
+      bottom: 0;
+      right: 39px;
+      z-index: 1;
+
+      content: " ";
+    }
+  }
+
+  &-item{
+    z-index: 1 !important;
+  }
+
+  &-title{
+    font-size: 28px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.1;
+  }
+
+  &-label{
+    margin: 25px 0;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+  }
+
+  &-button{
+    padding: 5px 30px;
+    display: inline-block;
+    @include radius();
+    @include gradient( #ffffff , #e1e1e1 );
+
+    font-size: 12px;
+    color: $color-2;
+    text-shadow: 0 1px 0 #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    &:hover{
+      margin-top: 1px;
+      @include gradient( #e1e1e1 , #e1e1e1 );
+
+      text-shadow: none;
+    }
+  }
+}
+
+#rotator-nav{
+  margin: -20px 0 0 585px;
+  position: absolute;
+
+  a{
+    position: relative;
+    z-index: 999;
+    width: 12px;
+    height: 12px;
+    float: left;
+    margin-left: 5px;
+    background: transparent;
+    text-indent: -999px;
+    display: block;
+    border: 3px solid #FFF;
+
+    &:hover, &.activeSlide{
+      border: 3px solid #a4bd06;
+    }
+  }
+
+}
+
+/**********/
+
+.headpage{
+  margin-top: 275px;
+
+  &-title{
+    font-size: 27px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0 2px 2px rgba( 0 , 0 , 0 , .15 );
+  }
+}
+
+/**********/
+
+.language{
+  padding: 15px 0;
+  padding-left: 798px;
+
+  &-flag{
+    margin-left: 5px;
+    display: block;
+    width: 16px;
+    height: 12px;
+    float: left;
+  }
+
+  &-br{
+    background: url(../images/sprite.png) 0 0 no-repeat;
+  }
+
+  &-en{
+    background: url(../images/sprite.png) -17px 0 no-repeat;
+  }
+}
+
+.menu{
+  margin-top: 35px;
+  text-align: right;
+
+  &-item{
+    display: inline-block;
+    @include radius(5px);
+
+    &:hover{
+      background: $color-1;
+
+      .menu-link{
+        color: #fff;
+      }
+
+      .menu-sub{
+        display: block;
+        border-radius: 0 5px 5px 5px;
+    background: #244a72;
+      }
+    }
+  }
+
+  &-link{
+    padding: 10px 20px;
+    display: block;
+    cursor: pointer;
+
+    font-size: 14px;
+    color: $color-2;
+    letter-spacing: -1px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  &-sub{
+    margin-top: -5px;
+    padding: 10px 0;
+    display: none;
+    @include radius(0 5px 5px 5px);
+    background: $color-1;
+    position: absolute;
+    z-index: 30;
+
+    text-align: left;
+
+
+    &-link{
+      padding: 10px 20px;
+      display: block;
+      width: 220px;
+
+      font-size: 13px;
+      color: #fff;
+
+      &:hover{
+        background: $color-2;
+      }
+    }
+  }
+}
+
+/************************************************** SECTION ******************************/
+section{
+  margin: 50px 0;
+  overflow: hidden;
+}
+
+.title{
+  margin-bottom: 40px;
+  color: $color-1;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.servicos-box{
+  margin: 0 5px;
+  padding: 26px 0 26px 75px;
+  width: 230px;
+  float: left;
+
+  color: $color-1;
+}
+
+.servicos-navios, .servicos-posicao, .servicos-rotas, .servicos-programacao, .servicos-porto, .servicos-viagem, .servicos-area, .servicos-carga{
+  position: relative;
+
+  &:before{
+    width: 69px;
+    height: 70px;
+    background: url(../images/sprite.png) no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+    content: " ";
+  }
+}
+
+.servicos-navios:before{
+  background-position: 0 -21px;
+}
+
+.servicos-posicao:before{
+  background-position: -79px -21px;
+}
+
+.servicos-rotas:before{
+  background-position: -158px -21px;
+}
+
+.servicos-programacao:before{
+  background-position: -237px -21px;
+}
+
+.servicos-porto:before{
+  background-position: -316px -21px;
+}
+
+.servicos-viagem:before{
+  background-position: -395px -21px;
+}
+
+.servicos-area:before{
+  background-position: -474px -21px;
+}
+
+.servicos-carga:before{
+  background-position: -553px -21px;
+}
+
+/************************************************** ASIDE ******************************/
+aside{
+  margin-top: 20px;
+
+  .title{
+    font-size: 1.7em;
+  }
+}
+
+.address-select{
+  margin-top: 59px;
+  position: relative;
+  cursor: pointer;
+
+  &:before{
+    display: block;
+    width: 43px;
+    height: 43px;
+    background: url(../images/sprite.png) -622px 0 no-repeat;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    z-index: 5;
+
+    content: "";
+  }
+
+  &-label{
+    padding: ($padding-top-bottom - 2) + px $padding-left-right + px;
+    display: block;
+    @include radius( $border-radius );
+    border: $input-border-width + px solid #d9d9d5;
+    background: #f4f4f3;
+    box-shadow: 0px 0px 5px rgba(0 , 0 , 0 , .1);
+
+    font-size: $base-size;
+    color: lighten( $color-default , 20% );
+  }
+
+  &-nav{
+    padding: 5px 0;
+    display: none;
+    width: 100%;
+    @include radius( 0 0 5px 5px );
+    border: $input-border-width + px solid #d9d9d5;
+    border-top: none;
+    background: #f4f4f3;
+    position: absolute;
+    z-index: 10;
+  }
+
+  &-item{
+    padding: 7px 15px;
+    color: $color-1;
+
+    &:hover{
+      background: #fff;
+    }
+  }
+}
+
+.address-rotator{
+  margin-top: 30px;
+
+  &-item{
+    padding-left: 20px;
+    width: 265px !important;
+  }
+
+  &-title{
+    margin-bottom: 20px;
+    color: $color-1;
+  }
+
+  &-label{
+    margin-bottom: 15px;
+    font-size: 13px;
+    color: $color-3;
+  }
+
+  &-position, &-tel, &-mail{
+    &:before{
+      margin-right: 15px;
+      display: block;
+      width: 13px;
+      height: 21px;
+
+      content: "";
+      float: left;
+    }
+  }
+
+  &-position:before{
+    margin-top: 7px;
+    background: url(../images/sprite.png) -34px 0 no-repeat;
+  }
+
+  &-tel:before{
+    margin-top: 7px;
+    background: url(../images/sprite.png) -48px 0 no-repeat;
+  }
+
+  &-mail:before{
+    background: url(../images/sprite.png) -62px 0 no-repeat;
+  }
+
+  &-map{
+    margin-top: 18px;
+
+    figcaption{
+      padding: 15px 0;
+      padding-left: 40px;
+      position: relative;
+
+      font-size: 18px;
+      color: $color-1;
+      text-align: center;
+      text-transform: uppercase;
+
+      &:before{
+        display: block;
+        width: 30px;
+        height: 30px;
+        background: url(../images/sprite.png) -622px -44px no-repeat;
+        position: absolute;
+        top: 10px;
+        left: 20%;
+
+        content: "";
+      }
+    }
+  }
+}
+
+/************************************************** FOOTER ******************************/
+footer{
+  min-height: 170px;
+  background: url(../images/bg-footer.jpg) center bottom repeat-x;
+
+  .grid-24:nth-child(1){
+    padding: 45px 0;
+  }
+
+  .grid-24:nth-child(2){
+    padding: 13px 0;
+  }
+
+  .footer-label{
+    font-size: 12px;
+    color: #fff;
+  }
+
+  .footer-link{
+    color: $color-2;
+    font-weight: bold;
+  }
+
+  .social{
+    padding: 5px 0;
+
+    .global-label{
+      margin-left: 15px;
+    }
+  }
+}

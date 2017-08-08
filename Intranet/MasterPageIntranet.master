@@ -1,0 +1,262 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageIntranet.master.cs" Inherits="Intranet_MasterPageIntranet" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+
+<head runat="server">
+    <title></title>
+    <link type='text/css' rel="stylesheet" href="../css/style.css" />
+    <link type='text/css' rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:400,300' />
+    <link type='text/css' rel="stylesheet" href="../css/fontello/css/fontello.css" />
+    <link type='text/css' rel="stylesheet" href="../css/fontello/css/animation.css" />
+    <link type='text/css' rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" />
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="../js/html5.js"></script>
+    <script src="../js/jquery.cycle.all.js"></script>
+
+    <script>
+        var CKfinderBasePath = "/editor/ckfinder/";
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#dialog_link').click(function () {
+                GetCurrentDollarTax();
+              
+            });
+        });
+
+        function GetCurrentDollarTax() {
+            $.ajax({
+                type: "POST",
+                url: "../Default.aspx/GetCurrentDollarTax",
+                data: '',
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function OnSuccess(response) {
+                    $('#dialog').html(response.d + "<p style = 'color:red; '><asp:Literal runat="server" Text="<%$ Resources:avisoTaxa %>" /></p>");
+                    $("#dialog").dialog();
+                }
+            });
+        }
+</script>
+   
+   
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+  
+     <div id="dialog" title="<asp:Literal Id="TituloTaxaDolar" runat="server" />"> 
+            
+    </div>
+    <form id="form1" runat="server">
+   
+        <header>
+            <div class="main">
+                <div class="wrapper">
+
+                    <div class="grid grid-last language grid-24">
+
+                        <p class="global-label" style="float: left">
+                            <asp:Literal runat="server" Text="<%$ Resources:escolhaIdioma %>" />
+                        </p>
+
+                        <a href="?lang=pt" class="language-flag language-br" id="btnPort"></a>
+                        <a href="?lang=en" class="language-flag language-en" id="btnEng"></a>
+
+                    </div>
+
+                    <grid class="grid grid-6">
+
+			<h1 class="logo">
+				<a href="../Default.aspx">
+					<img src="../images/logo-grieg.png" alt="" />
+				</a>
+			</h1>
+		</grid>
+
+                    <grid class="grid-18 right">
+		<div class="grid grid-last right social" style="display:none">                  
+					<p class="global-label"><asp:Literal runat="server" Text="<%$ Resources:redesSociais %>" /></p>
+				<a href="" class="social-ico social-fb icon-facebook"></a>
+				<a href="" class="social-ico social-tw icon-twitter"></a>    
+			</div>              
+
+			<menu class="grid grid-18 no-bullet menu">
+				<li class="menu-item"><a href="../QuemSomos.aspx" class="menu-link"><asp:Literal runat="server" Text="<%$ Resources:quemSomos %>" /></a></li>
+				<li class="menu-item">
+					<span class="menu-link"><asp:Literal runat="server" Text="<%$ Resources:servicos %>" /> </span>
+					<ul class="no-bullet menu-sub">
+                     <li class="menu-sub-item"><a href="javascript: void(0)" id="dialog_link" class="menu-sub-link"><asp:Literal runat="server" Text="  <%$ Resources: taxaPagamento%>" /> </a></li>
+                        <li class="menu-sub-item"><a href="../DetalheNavios.aspx" class="menu-sub-link"> <asp:Literal runat="server" Text="<%$ Resources:detNavios %>" /></a></li>
+                        <li class="menu-sub-item"><a href="http://blonline.grieg.com.br/index.php" target="_blank" class="menu-sub-link"><asp:Literal runat="server" Text="  <%$ Resources: blViaWeb%>" /></a></li>						
+                        <li class="menu-sub-item"><a href="http://www.grieg.com.br/blweb/" target="_blank" class="menu-sub-link"><asp:Literal runat="server" Text="  <%$ Resources: boletoWeb%>" /></a></li>						
+                        <li class="menu-sub-item"><a href="http://www.grieg.com.br/schedule/" target="_blank" class="menu-sub-link"><asp:Literal runat="server" Text="  <%$ Resources: posNavios%>" /></a></li>                        
+						<!-- <li class="menu-sub-item"><a href="" class="menu-sub-link">Rotas Evergreen</a></li> -->
+						<!-- <li class="menu-sub-item"><a href="" class="menu-sub-link">Programação Evergreen</a></li> -->
+                        <li class="menu-sub-item"><a href="http://www.shipmentlink.com/tam1/jsp/TAM1_Login.jsp?lang=en" target="_blank" class="menu-sub-link"><asp:Literal runat="server" Text="  <%$ Resources: bookingViaWeb%>" /></a></li>
+						<li class="menu-sub-item"><a href="http://www.shipmentlink.com/tvs2/jsp/TVS2_InteractiveSchedule.jsp" target="_blank" class="menu-sub-link"><asp:Literal runat="server" Text="<%$ Resources:pesPorto %>" /></a></li>
+						<li class="menu-sub-item"><a href="http://www.shipmentlink.com/tvs2/jsp/TVS2_VesselSchedule.jsp" target="_blank" class="menu-sub-link"><asp:Literal runat="server" Text="<%$ Resources:pesViagem %>" /></a></li>
+						<li class="menu-sub-item"><a href="http://www.shipmentlink.com/tvs2/jsp/TVS2_LongTermMenu.jsp?type=L" target="_blank" class="menu-sub-link"><asp:Literal runat="server" Text="<%$ Resources:pesArea %>" /></a></li>
+						<li class="menu-sub-item"><a href="http://www.shipmentlink.com/servlet/TDB1_CargoTracking.do" target="_blank" class="menu-sub-link"><asp:Literal runat="server" Text="<%$ Resources:rastCarga %>" /></a></li>
+                         <li class="menu-sub-item"><a href="http://www.shipmentlink.com/servlet/EVG1_ReportVGMController.do?action=vgmIndex" target="_blank" class="menu-sub-link"><asp:Literal runat="server" Text="SOLAS" /></a></li>
+					</ul>
+				</li>
+			<li class="menu-item"><a href="../Documentos.aspx" class="menu-link"><asp:Literal runat="server" Text="  <%$ Resources: documentos%>" /></a></li>
+                <li class="menu-item"><a href="Default.aspx" class="menu-link">Intranet</a></li>
+				<li class="menu-item"><a href="../Contato.aspx" class="menu-link"><asp:Literal runat="server" Text="<%$ Resources:faleConosco %>" /></a></li>
+			</menu>
+
+		</grid>
+                </div>
+            </div>
+            <div class="wrapper headpage">
+                <h2 class="headpage-title">Intranet</h2>
+
+                <%--  <ul class="no-bullet breadcrumb">
+                <li class="breadcrumb-item"><span class="breadcrumb-label">Você está em:</span></li>
+                <li class="breadcrumb-item"><a href="../Default.aspx" class="breadcrumb-link">Home</a></li>
+                <li class="breadcrumb-item"><span class="breadcrumb-label">Quem Somos</span></li>
+            </ul>--%>
+            </div>
+        </header>
+
+        <section>
+            <div class="wrapper">
+
+                <h3 class="title">
+                    <asp:Literal runat="server" Text="<%$ Resources:intranetGrupoGrieg %>" /></h3>
+
+                <menu class="grid grid-22 no-bullet menu">
+
+                    <li class="menu-item">
+                        <span class="menu-link">E-mail</span>
+                        <ul class="no-bullet menu-sub">
+                            <li class="menu-sub-item"><a href="AutoResposta.aspx" class="menu-sub-link">
+                                <asp:Literal runat="server" Text="<%$ Resources:modeloAutoResposta %>" /></a></li>
+                            <li class="menu-sub-item"><a href="http://webmail.grieg.com.br/emailsantos.php" class="menu-sub-link" target="_blank">Grieg Santos / Retroporto</a></li>
+                            <li class="menu-sub-item"><a href="http://mailspo.grieg.com.br/emails.php" class="menu-sub-link" target="_blank">Grieg São Paulo</a></li>
+                            <li class="menu-sub-item"><a href="http://mailpng.grieg.com.br/emails.php" class="menu-sub-link" target="_blank">Grieg Paranaguá</a></li>
+                            <li class="menu-sub-item"><a href="http://mailitj.grieg.com.br/emails.php" class="menu-sub-link" target="_blank">Grieg Itajái</a></li>
+                            <li class="menu-sub-item"><a href="http://mailcwb.grieg.com.br/emails.php" class="menu-sub-link" target="_blank">Grieg Curitiba</a></li>
+                            <li class="menu-sub-item"><a href="http://mailpoa.grieg.com.br/emails.php" class="menu-sub-link" target="_blank">Grieg Porto Alegre</a></li>
+                            <li class="menu-sub-item"><a href="http://webmail.grieg.com.br/emaillion.php" class="menu-sub-link" target="_blank">Lion Logistics</a></li>
+                            <li class="menu-sub-item"><a href="http://webmail.grieg.com.br/emailmml.php" class="menu-sub-link" target="_blank">Meridional-Martima</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <span class="menu-link">
+                            <asp:Literal runat="server" Text="<%$ Resources:telefones %>" /></span>
+                        <ul class="no-bullet menu-sub">
+                            <li class="menu-sub-item"><a href="InstrucaoTelefonia.aspx" target="" class="menu-sub-link">
+                                <asp:Literal runat="server" Text="<%$ Resources:InstUtil %>" /></a></li>
+                            <li class="menu-sub-item"><a href="ListaTelefones.aspx" class="menu-sub-link">
+                                <asp:Literal runat="server" Text="<%$ Resources:listTel %>" /></a></li>
+                            <li class="menu-sub-item"><a href="ListaRamais.aspx" class="menu-sub-link">
+                                <asp:Literal runat="server" Text="<%$ Resources:listRam %>" /></a></li>
+                            <li class="menu-sub-item"><a href="CodigosContabeis.aspx" class="menu-sub-link">
+                                <asp:Literal runat="server" Text="<%$ Resources:listCodCont %>" /></a></li>
+                            <li class="menu-sub-item"><a href="ListaTelefonesCadastrados.aspx" class="menu-sub-link">
+                                <asp:Literal runat="server" Text="<%$ Resources:listTelCad %>" /></a></li>
+                            <li class="menu-sub-item"><a href="ManualOper.aspx" class="menu-sub-link">
+                                <asp:Literal runat="server" Text="<%$ Resources:manOp %>" /></a></li>
+
+                        </ul>
+                    </li>
+                    <li class="menu-item"><a href="ISO.aspx" class="menu-link">
+                        <asp:Literal runat="server" Text="<%$ Resources:iso %>" /></a></li>
+                    <li class="menu-item"><a href="Regulamento.aspx" class="menu-link">
+                        <asp:Literal runat="server" Text="<%$ Resources:regulam %>" /></a></li>
+                    <li class="menu-item">
+                        <span class="menu-link">
+                            <asp:Literal runat="server" Text="<%$ Resources:documentos %>" /></span>
+                        <ul class="no-bullet menu-sub">
+                            <li class="menu-sub-item"><a href="http://wall.grieg.com.br/datacenter.php" target="_blank" class="menu-sub-link">Grieg Santos</a></li>
+                            <li class="menu-sub-item"><a href="http://wallspo.grieg.com.br/datacenter.php" target="_blank" class="menu-sub-link">Grieg São Paulo</a></li>
+                            <li class="menu-sub-item"><a href="http://wallpng.grieg.com.br/datacenter.php" target="_blank" class="menu-sub-link">Grieg Paranaguá</a></li>
+                            <li class="menu-sub-item"><a href="http://wallcwb.grieg.com.br/datacenter.php" target="_blank" class="menu-sub-link">Grieg Curitiba</a></li>
+                            <li class="menu-sub-item"><a href="http://wallitj.grieg.com.br/datacenter.php" target="_blank" class="menu-sub-link">Grieg Itajaí</a></li>
+                            <li class="menu-sub-item"><a href="http://wallpoa.grieg.com.br/datacenter.php" target="_blank" class="menu-sub-link">Grieg Porto Alegre</a></li>
+                            <li class="menu-sub-item"><a href="http://wall.griegretroporto.com.br/datacenter.php" target="_blank" class="menu-sub-link">Grieg Retroporto</a></li>
+                            <li class="menu-sub-item"><a href="http://wall.grieg.com.br/datacenter.php" target="_blank" class="menu-sub-link">Meridional</a></li>
+                            <li class="menu-sub-item"><a href="../Intranet/Manuais/" target="_blank" class="menu-sub-link">
+                                <asp:Literal runat="server" Text="<%$ Resources:manuais %>" /></a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <span class="menu-link">
+                            <asp:Literal runat="server" Text="  <%$ Resources: aceInterno%>" /></span>
+                        <ul class="no-bullet menu-sub">
+                            <li class="menu-sub-item"><a href="http://webmail.grieg.com.br/mailadmin/users/login.php" target="_blank" class="menu-sub-link">
+                                <asp:Literal runat="server" Text="  <%$ Resources: autoRes%>" /></a></li>
+                            <li class="menu-sub-item"><a href="http://www.grieg.com.br/chamados/" target="_blank" class="menu-sub-link">
+                                <asp:Literal runat="server" Text="  <%$ Resources: sisChamados%>" /></a></li>
+                            <li class="menu-sub-item"><a href="http://ged.grieg.com.br/organizer/?cfgFolder=grieg" target="_blank" class="menu-sub-link">GED</a></li>
+                            <li class="menu-sub-item"><a href="http://webmail.grieg.com.br/" target="_blank" class="menu-sub-link">Webmail Santos</a></li>
+                            <li class="menu-sub-item"><a href="http://webmail.griegretroporto.com.br/" target="_blank" class="menu-sub-link">Webmail Retroporto</a></li>
+                            <li class="menu-sub-item"><a href="http://mailspo.grieg.com.br/" target="_blank" class="menu-sub-link">Webmail São Paulo</a></li>
+                            <li class="menu-sub-item"><a href="http://mailitj.grieg.com.br/" target="_blank" class="menu-sub-link">Webmail Itajai</a></li>
+                            <li class="menu-sub-item"><a href="http://mailpng.grieg.com.br/" target="_blank" class="menu-sub-link">Webmail Paranaguá</a></li>
+                            <li class="menu-sub-item"><a href="http://webmail.meridional-maritima.com.br/" target="_blank" class="menu-sub-link">Webmail Meridional</a></li>
+                            <li class="menu-sub-item"><a href="http://webmail.lionlogistics.com.br/" target="_blank" class="menu-sub-link">Webmail Lion</a></li>
+
+                        </ul>
+                    </li>
+					<li class="menu-item">
+                        <span class="menu-link">
+                            Treinamento</span>
+                        
+                        <ul class="no-bullet menu-sub">
+						    <li class="menu-sub-item"><a href="/Intranet/Treinamento/geral.mp4" target="_blank" class="menu-sub-link">
+                                Geral</a></li>                                                                                            
+							
+							<li class="menu-sub-item"><a href="/Intranet/Treinamento/outlook.mp4" target="_blank" class="menu-sub-link">
+                                Outlook</a></li>
+                            
+							<li class="menu-sub-item"><a href="/Intranet/Treinamento/autoresposta.mp4" target="_blank" class="menu-sub-link">
+                                <asp:Literal runat="server" Text="  <%$ Resources: autoRes%>" /></a></li>
+							
+							<li class="menu-sub-item"><a href="/Intranet/Treinamento/chamados.mp4" target="_blank" class="menu-sub-link">
+                                <asp:Literal runat="server" Text="  <%$ Resources: sisChamados%>" /></a></li>
+                        </ul>
+                    </li>
+                </menu>
+            </div>
+        </section>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <footer>
+            <div class="wrapper">
+                <div class="grid grid-24 grid-last">
+                    <div class="grid grid-3">
+                        <img src="../images/logo-grieg.png" alt="" class="logo">
+                    </div>
+
+                    <div class="grid grid-10 grid-offset-1 social" style="display: none">
+                        <a href="" class="social-ico social-fb icon-facebook"></a>
+                        <a href="" class="social-ico social-tw icon-twitter"></a>
+                        <p class="global-label">A Grieg nas redes sociais</p>
+                    </div>
+                </div>
+                <div class="grid grid-24">
+                    <p class="footer-label">Empresas Grieg Todos os direitos reservados</p>
+                </div>
+            </div>
+        </footer>
+    </form>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68880694-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

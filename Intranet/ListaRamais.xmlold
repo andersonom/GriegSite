@@ -1,0 +1,1089 @@
+<?xmlversion = "1.0" encoding="utf-8" ?>
+<?xml-stylesheet type = "text/xsl" href="ListaRamais.xsl" ?>
+<Ramais>
+  <Empresa id="Grieg Santos">
+    <Departamento id="Geral">
+      <Funcionario>
+        <Nome>
+          Sala de Reunião
+        </Nome>
+        <Sigla>
+        </Sigla>
+        <Local>4º</Local>
+        <Ramal>250</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Caixa">
+      <Funcionario>
+        <Nome>Ricardo</Nome>
+        <Sigla>JRSS</Sigla>
+        <Local>Ter.</Local>
+        <Ramal>107</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Arianne</Nome>
+        <Sigla>AFS</Sigla>
+        <Local>Ter.</Local>
+        <Ramal>109</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Cida</Nome>
+        <Sigla>MAS</Sigla>
+        <Local>Ter.</Local>
+        <Ramal>108</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Gisele</Nome>
+        <Sigla>RGA</Sigla>
+        <Local>Ter.</Local>
+        <Ramal>122</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Cambio">
+      <Funcionario>
+        <Nome>Cristiano</Nome>
+        <Sigla>COF</Sigla>
+        <Local>1º</Local>
+        <Ramal>158</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Rodrigo</Nome>
+        <Sigla>RCN</Sigla>
+        <Local>1º</Local>
+        <Ramal>119</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Caroline</Nome>
+        <Sigla>CST</Sigla>
+        <Local>1º</Local>
+        <Ramal>243</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Compras">
+      <Funcionario>
+        <Nome>Henrique</Nome>
+        <Sigla>HVN</Sigla>
+        <Local>1º</Local>
+        <Ramal>157</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Expedição</Nome>
+        <Sigla>
+        </Sigla>
+        <Local>1º</Local>
+        <Ramal>251</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Comunicação">
+      <Funcionario>
+        <Nome>Fax</Nome>
+        <Sigla>
+        </Sigla>
+        <Local>4º</Local>
+        <Ramal>101</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Contabilidade">
+      <Funcionario>
+        <Nome>Wanda</Nome>
+        <Sigla>MWRP</Sigla>
+        <Local>1º</Local>
+        <Ramal>163</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Cláudia</Nome>
+        <Sigla>CCM</Sigla>
+        <Local>1º</Local>
+        <Ramal>134</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Lucimar</Nome>
+        <Sigla>LGS</Sigla>
+        <Local>1º</Local>
+        <Ramal>129</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Sandra</Nome>
+        <Sigla>SMS</Sigla>
+        <Local>1º</Local>
+        <Ramal>229</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Silvia</Nome>
+        <Sigla>SSA</Sigla>
+        <Local>1º</Local>
+        <Ramal>225</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Container">
+      <Funcionario>
+        <Nome>Fábio</Nome>
+        <Sigla>FSS</Sigla>
+        <Local>4º</Local>
+        <Ramal>166</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Felipe</Nome>
+        <Sigla>FFHP</Sigla>
+        <Local>4º</Local>
+        <Ramal>105</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Gustavo</Nome>
+        <Sigla>GSC</Sigla>
+        <Local>4º</Local>
+        <Ramal>149</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Jeferson</Nome>
+        <Sigla>JSS</Sigla>
+        <Local>4º</Local>
+        <Ramal>146</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Juliana</Nome>
+        <Sigla>JSJ</Sigla>
+        <Local>4º</Local>
+        <Ramal>148</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Márcio</Nome>
+        <Sigla>MAM</Sigla>
+        <Local>4º</Local>
+        <Ramal>147</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Willian</Nome>
+        <Sigla>WSS</Sigla>
+        <Local>4º</Local>
+        <Ramal>169</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Contas a Pagar">
+      <Funcionario>
+        <Nome>Sheila</Nome>
+        <Sigla>SMRI</Sigla>
+        <Local>1º</Local>
+        <Ramal>135</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Cilda</Nome>
+        <Sigla>CCB</Sigla>
+        <Local>1º</Local>
+        <Ramal>165</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Ygor</Nome>
+        <Sigla>YAV</Sigla>
+        <Local>1º</Local>
+        <Ramal>244</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Contas a Receber">
+      <Funcionario>
+        <Nome>Sônia Oliveira</Nome>
+        <Sigla>SMO</Sigla>
+        <Local>1º</Local>
+        <Ramal>138</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Amanda</Nome>
+        <Sigla>AON</Sigla>
+        <Local>1º</Local>
+        <Ramal>170</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Carla</Nome>
+        <Sigla>CRA</Sigla>
+        <Local>1º</Local>
+        <Ramal>177</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Christiane</Nome>
+        <Sigla>CF</Sigla>
+        <Local>1º</Local>
+        <Ramal>128</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Maria Alzenir</Nome>
+        <Sigla>MAB</Sigla>
+        <Local>1º</Local>
+        <Ramal>124</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Maycow</Nome>
+        <Sigla>MSS</Sigla>
+        <Local>1º</Local>
+        <Ramal>116</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Nathália</Nome>
+        <Sigla>NFT</Sigla>
+        <Local>1º</Local>
+        <Ramal>106</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Rafael</Nome>
+        <Sigla>RS</Sigla>
+        <Local>1º</Local>
+        <Ramal>131</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Raphael</Nome>
+        <Sigla>RNR</Sigla>
+        <Local>1º</Local>
+        <Ramal>140</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Reinaldo</Nome>
+        <Sigla>RMV</Sigla>
+        <Local>1º</Local>
+        <Ramal>126</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Sabrina</Nome>
+        <Sigla>SCZ</Sigla>
+        <Local>1º</Local>
+        <Ramal>133</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Vinício</Nome>
+        <Sigla>VGS</Sigla>
+        <Local>1º</Local>
+        <Ramal>175</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Raquel Martins</Nome>
+        <Sigla>RMR</Sigla>
+        <Local>1º</Local>
+        <Ramal>173</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Copa">
+      <Funcionario>
+        <Nome>Cremilda</Nome>
+        <Sigla>CVC</Sigla>
+        <Local>1º</Local>
+        <Ramal>248</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Custeio">
+      <Funcionario>
+        <Nome>Cláudio</Nome>
+        <Sigla>CTH</Sigla>
+        <Local>1º</Local>
+        <Ramal>136</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>André Wagner</Nome>
+        <Sigla>AWM</Sigla>
+        <Local>1º</Local>
+        <Ramal>111</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Gabrieli</Nome>
+        <Sigla>GCS</Sigla>
+        <Local>1º</Local>
+        <Ramal>252</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Mateus</Nome>
+        <Sigla>JMO</Sigla>
+        <Local>1º</Local>
+        <Ramal>137</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Michelle</Nome>
+        <Sigla>MMR</Sigla>
+        <Local>1º</Local>
+        <Ramal>154</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Sônia Maria</Nome>
+        <Sigla>SMGS</Sigla>
+        <Local>1º</Local>
+        <Ramal>141</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Diretoria">
+      <Funcionario>
+        <Nome>Alex Grieg</Nome>
+        <Sigla>AEG</Sigla>
+        <Local>4º</Local>
+        <Ramal>110</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Glen Findlay</Nome>
+        <Sigla>GGF</Sigla>
+        <Local>4º</Local>
+        <Ramal>120</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Jorge Mariano</Nome>
+        <Sigla>JM</Sigla>
+        <Local>4º</Local>
+        <Ramal>130</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Mesa Diretoria">
+      <Funcionario>
+        <Nome>Alex Grieg</Nome>
+        <Sigla>AEG</Sigla>
+        <Local>4º</Local>
+        <Ramal>200</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Glen Findlay</Nome>
+        <Sigla>GGF</Sigla>
+        <Local>4º</Local>
+        <Ramal>220</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Jorge Mariano</Nome>
+        <Sigla>JM</Sigla>
+        <Local>4º</Local>
+        <Ramal>230</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Exportação">
+      <Funcionario>
+        <Nome>Luiz Cláudio</Nome>
+        <Sigla>LCS</Sigla>
+        <Local>Ter.</Local>
+        <Ramal>113</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>André</Nome>
+        <Sigla>ACA</Sigla>
+        <Local>Ter.</Local>
+        <Ramal>104</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Arnaldo</Nome>
+        <Sigla>ARA</Sigla>
+        <Local>Ter.</Local>
+        <Ramal>161</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Fábio</Nome>
+        <Sigla>FGS</Sigla>
+        <Local>Ter.</Local>
+        <Ramal>159</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Leandro</Nome>
+        <Sigla>LCM</Sigla>
+        <Local>Ter.</Local>
+        <Ramal>174</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Marcel</Nome>
+        <Sigla>MRS</Sigla>
+        <Local>Ter.</Local>
+        <Ramal>189</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Faltas e Avarias">
+      <Funcionario>
+        <Nome>Adriana</Nome>
+        <Sigla>ACR</Sigla>
+        <Local>1º</Local>
+        <Ramal>168</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Glauber</Nome>
+        <Sigla>GA</Sigla>
+        <Local>1º</Local>
+        <Ramal>240</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Garagem">
+      <Funcionario>
+        <Nome>Zezinho</Nome>
+        <Sigla>JFS</Sigla>
+        <Local>Garagem</Local>
+        <Ramal>99735-6167</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Gerência">
+      <Funcionario>
+        <Nome>Billy</Nome>
+        <Sigla>BJC</Sigla>
+        <Local>4º</Local>
+        <Ramal>114</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Flávio</Nome>
+        <Sigla>FG</Sigla>
+        <Local>MML</Local>
+        <Ramal>205</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Richard</Nome>
+        <Sigla>JRA</Sigla>
+        <Local>1º</Local>
+        <Ramal>178</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Importação">
+      <Funcionario>
+        <Nome>Vitor Souza</Nome>
+        <Sigla>VNS</Sigla>
+        <Local>Ter.</Local>
+        <Ramal>153</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Alexandre</Nome>
+        <Sigla>AFS</Sigla>
+        <Local>Ter.</Local>
+        <Ramal>144</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Lilian</Nome>
+        <Sigla>LSM</Sigla>
+        <Local>Ter.</Local>
+        <Ramal>125</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Rafael</Nome>
+        <Sigla>RNG</Sigla>
+        <Local>Ter.</Local>
+        <Ramal>117</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Thales</Nome>
+        <Sigla>TAF</Sigla>
+        <Local>Ter.</Local>
+        <Ramal>156</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Vinícius</Nome>
+        <Sigla>VCL</Sigla>
+        <Local>Ter.</Local>
+        <Ramal>162</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Victor Finazzi</Nome>
+        <Sigla>VOF</Sigla>
+        <Local>Ter.</Local>
+        <Ramal>188</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Manutenção">
+      <Funcionario>
+        <Nome>Narcizo</Nome>
+        <Sigla>NVMF</Sigla>
+        <Local>Ter.</Local>
+        <Ramal>99716-7974</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Operacões">
+      <Funcionario>
+        <Nome>Carlos Alberto</Nome>
+        <Sigla>CASG</Sigla>
+        <Local>4º</Local>
+        <Ramal>112</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>José Carlos</Nome>
+        <Sigla>JCS</Sigla>
+        <Local>TECON</Local>
+        <Ramal>708</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Luiz</Nome>
+        <Sigla>LPN</Sigla>
+        <Local>4º</Local>
+        <Ramal>155</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Maurício</Nome>
+        <Sigla>MDL</Sigla>
+        <Local>4º</Local>
+        <Ramal>115</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Pessoal">
+      <Funcionario>
+        <Nome>Marco Antonio</Nome>
+        <Sigla>MAS</Sigla>
+        <Local>1º</Local>
+        <Ramal>142</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Adriana</Nome>
+        <Sigla>AGO</Sigla>
+        <Local>1º</Local>
+        <Ramal>242</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Mara Christina</Nome>
+        <Sigla>MCB</Sigla>
+        <Local>1º</Local>
+        <Ramal>143</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Qualidade">
+      <Funcionario>
+        <Nome>Luiz Cláudio</Nome>
+        <Sigla>LCS</Sigla>
+        <Local>4º</Local>
+        <Ramal>113</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Beatriz</Nome>
+        <Sigla>BMA</Sigla>
+        <Local>4º</Local>
+        <Ramal>152</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Secretaria">
+      <Funcionario>
+        <Nome>Carolina</Nome>
+        <Sigla>CAP</Sigla>
+        <Local>4º</Local>
+        <Ramal>132</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Maria Cristina</Nome>
+        <Sigla>MCF</Sigla>
+        <Local>4º</Local>
+        <Ramal>103</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Telefonia">
+      <Funcionario>
+        <Nome>Vânia</Nome>
+        <Sigla>VSS</Sigla>
+        <Local>4º</Local>
+        <Ramal>9</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Técnologia da Informação">
+      <Funcionario>
+        <Nome>Dácio</Nome>
+        <Sigla>DHRB</Sigla>
+        <Local>4º</Local>
+        <Ramal>150</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Guilherme</Nome>
+        <Sigla>GTA</Sigla>
+        <Local>4º</Local>
+        <Ramal>172</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Jairo</Nome>
+        <Sigla>JSM</Sigla>
+        <Local>4º</Local>
+        <Ramal>171</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Marçal</Nome>
+        <Sigla>MJR</Sigla>
+        <Local>4º</Local>
+        <Ramal>151</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Rodrigo</Nome>
+        <Sigla>RRV</Sigla>
+        <Local>4º</Local>
+        <Ramal>171</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Anderson</Nome>
+        <Sigla>AOM</Sigla>
+        <Local>4º</Local>
+        <Ramal>121</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Visita">
+      <Funcionario>
+        <Nome>Alexander</Nome>
+        <Sigla>ALC</Sigla>
+        <Local>4º</Local>
+        <Ramal>127</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="EMC">
+      <Funcionario>
+        <Nome>Capt. Chen</Nome>
+        <Sigla>CHEN</Sigla>
+        <Local>4º</Local>
+        <Ramal>139</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Filiais Grieg">
+      <Funcionario>
+        <Nome>AVG</Nome>
+        <Sigla>CWB</Sigla>
+        <Local> </Local>
+        <Ramal>712</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>AVG</Nome>
+        <Sigla>POA</Sigla>
+        <Local> </Local>
+        <Ramal>714</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>AVG</Nome>
+        <Sigla>ITJ</Sigla>
+        <Local> </Local>
+        <Ramal>713</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>AVG</Nome>
+        <Sigla>PNP</Sigla>
+        <Local> </Local>
+        <Ramal>711</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>AVG</Nome>
+        <Sigla>SPO</Sigla>
+        <Local> </Local>
+        <Ramal>710</Ramal>
+      </Funcionario>
+    </Departamento>
+  </Empresa>
+  <Empresa id="Grieg São Paulo">
+    <Departamento id="Geral">
+      <Funcionario>
+        <Nome>Pabx</Nome>
+        <Sigla> </Sigla>
+        <Local> </Local>
+        <Ramal>3638-9000</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Cleonice</Nome>
+        <Sigla> </Sigla>
+        <Local> </Local>
+        <Ramal>3638-9033</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Fax</Nome>
+        <Sigla> </Sigla>
+        <Local> </Local>
+        <Ramal>3638-9022</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Sala de Reunião</Nome>
+        <Sigla> </Sigla>
+        <Local>AVG</Local>
+        <Ramal>3638-9005</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Diretoria">
+      <Funcionario>
+        <Nome>Fredrik</Nome>
+        <Sigla>FPE</Sigla>
+        <Local>AVG</Local>
+        <Ramal>3638-9001</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Sala V. Pres</Nome>
+        <Sigla> </Sigla>
+        <Local>AVG</Local>
+        <Ramal>3638-9002</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Roberto</Nome>
+        <Sigla>RE</Sigla>
+        <Local>AVG</Local>
+        <Ramal>3638-9003</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Secretaria">
+      <Funcionario>
+        <Nome>Maria Teresa</Nome>
+        <Sigla>MTB</Sigla>
+        <Local>AVG</Local>
+        <Ramal>3638-9006</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Comercial">
+      <Funcionario>
+        <Nome>Alexandre</Nome>
+        <Sigla>ASB</Sigla>
+        <Local>AVG</Local>
+        <Ramal>3638-9023</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Américo</Nome>
+        <Sigla>AFF</Sigla>
+        <Local>AVG</Local>
+        <Ramal>3638-9007</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Alessandra</Nome>
+        <Sigla>AIF</Sigla>
+        <Local>AVG</Local>
+        <Ramal>3638-9027</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Alcione</Nome>
+        <Sigla>AMS</Sigla>
+        <Local>AVG</Local>
+        <Ramal>3638-9015</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Cleide</Nome>
+        <Sigla>CSA</Sigla>
+        <Local>AVG</Local>
+        <Ramal>3638-9029</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Fredrik</Nome>
+        <Sigla>FPEJ</Sigla>
+        <Local>AVG</Local>
+        <Ramal>3638-9017</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Heloisa</Nome>
+        <Sigla>HB</Sigla>
+        <Local>AVG</Local>
+        <Ramal>3638-9032</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Isac</Nome>
+        <Sigla>IA</Sigla>
+        <Local>AVG</Local>
+        <Ramal>3638-9031</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Jeferson</Nome>
+        <Sigla>JSO</Sigla>
+        <Local>AVG</Local>
+        <Ramal>3638-9041</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>João Paulo</Nome>
+        <Sigla>JBB</Sigla>
+        <Local>AVG</Local>
+        <Ramal>3638-9012</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Keilla</Nome>
+        <Sigla>KSL</Sigla>
+        <Local>AVG</Local>
+        <Ramal>3638-9036</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Luiz Carlos</Nome>
+        <Sigla>LCB</Sigla>
+        <Local>AVG</Local>
+        <Ramal>3638-9020</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Maria Grazia</Nome>
+        <Sigla>MGC</Sigla>
+        <Local>AVG</Local>
+        <Ramal>3638-9035</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Newton</Nome>
+        <Sigla>NAC</Sigla>
+        <Local>AVG</Local>
+        <Ramal>3638-9009</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Patrícia Regina</Nome>
+        <Sigla>PRR</Sigla>
+        <Local>AVG</Local>
+        <Ramal>3638-9021</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Paulo Celso</Nome>
+        <Sigla>PCC</Sigla>
+        <Local>AVG</Local>
+        <Ramal>3638-9016</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Paulo Zimolo</Nome>
+        <Sigla>PRZ</Sigla>
+        <Local>AVG</Local>
+        <Ramal>3638-9019</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Rejane</Nome>
+        <Sigla>RAA</Sigla>
+        <Local>AVG</Local>
+        <Ramal>3638-9030</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Sandra</Nome>
+        <Sigla>SAA</Sigla>
+        <Local>AVG</Local>
+        <Ramal>3638-9018</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Synesio</Nome>
+        <Sigla>SGJ</Sigla>
+        <Local>AVG</Local>
+        <Ramal>3638-9038</Ramal>
+      </Funcionario>
+    </Departamento>
+  </Empresa>
+  <Empresa id="Grieg Curitiba">
+    <Departamento id="Geral">
+      <Funcionario>
+        <Nome>MARLIZE</Nome>
+        <Sigla>
+        </Sigla>
+        <Local>
+        </Local>
+        <Ramal>3310-0020</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>GABRIELA</Nome>
+        <Sigla>
+        </Sigla>
+        <Local>
+        </Local>
+        <Ramal>3310-0019</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>ADRIANA</Nome>
+        <Sigla>
+        </Sigla>
+        <Local>
+        </Local>
+        <Ramal>3310-0016</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>JEAN   </Nome>
+        <Sigla>
+        </Sigla>
+        <Local>
+        </Local>
+        <Ramal>3310-0013</Ramal>
+      </Funcionario>
+    </Departamento>
+  </Empresa>
+  <Empresa id="Grieg Itajaí">
+    <Departamento id="Geral">
+      <Funcionario>
+        <Nome>Celina</Nome>
+        <Sigla>
+        </Sigla>
+        <Local>
+        </Local>
+        <Ramal>3249-3803</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Nazareth</Nome>
+        <Sigla>
+        </Sigla>
+        <Local>
+        </Local>
+        <Ramal>3249-3804</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Lucas</Nome>
+        <Sigla>
+        </Sigla>
+        <Local>
+        </Local>
+        <Ramal>3249-3805</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Rodrigo </Nome>
+        <Sigla>
+        </Sigla>
+        <Local>
+        </Local>
+        <Ramal>3249-3807</Ramal>
+      </Funcionario>
+    </Departamento>
+  </Empresa>
+  <Empresa id="Meridional Marítima">
+    <Departamento id="Geral">
+      <Funcionario>
+        <Nome>Fax</Nome>
+        <Sigla> </Sigla>
+        <Local> </Local>
+        <Ramal>213</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Caixa">
+      <Funcionario>
+        <Nome>Raquel</Nome>
+        <Sigla>RSS</Sigla>
+        <Local>MML</Local>
+        <Ramal>212</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Expedição">
+      <Funcionario>
+        <Nome>Kauã</Nome>
+        <Sigla>KAS</Sigla>
+        <Local>MML</Local>
+        <Ramal>215</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Exportacao">
+      <Funcionario>
+        <Nome>Paulo Henrique</Nome>
+        <Sigla>PHF</Sigla>
+        <Local>MML</Local>
+        <Ramal>207</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Gerencia">
+      <Funcionario>
+        <Nome>Flávio Gomes</Nome>
+        <Sigla>FG</Sigla>
+        <Local>MML</Local>
+        <Ramal>205</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Liberação">
+      <Funcionario>
+        <Nome>Marina</Nome>
+        <Sigla>MTR</Sigla>
+        <Local>MML</Local>
+        <Ramal>216</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Importação">
+      <Funcionario>
+        <Nome>Carlos</Nome>
+        <Sigla>CSPN</Sigla>
+        <Local> </Local>
+        <Ramal>211</Ramal>
+      </Funcionario>
+    </Departamento>
+  </Empresa>
+  <Empresa id="LionLogistics">
+    <Departamento id="Geral">
+      <Funcionario>
+        <Nome>Américo</Nome>
+        <Sigla>AFF</Sigla>
+        <Local> </Local>
+        <Ramal>3638-9067</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Carlos</Nome>
+        <Sigla>CDC</Sigla>
+        <Local> </Local>
+        <Ramal>3638-9066</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Fátima</Nome>
+        <Sigla>FAC</Sigla>
+        <Local> </Local>
+        <Ramal>3638-9063</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Rosana</Nome>
+        <Sigla>RAP</Sigla>
+        <Local> </Local>
+        <Ramal>3638-9064</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Sérgio</Nome>
+        <Sigla>SOS</Sigla>
+        <Local> </Local>
+        <Ramal>3638-9062</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Fax</Nome>
+        <Sigla>
+        </Sigla>
+        <Local> </Local>
+        <Ramal>3638-9061</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Priscila</Nome>
+        <Sigla>PEE</Sigla>
+        <Local>
+        </Local>
+        <Ramal>3638-9069</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Carmen</Nome>
+        <Sigla>CDD</Sigla>
+        <Local>
+        </Local>
+        <Ramal>3638-9060</Ramal>
+      </Funcionario>
+    </Departamento>
+  </Empresa>
+  <Empresa id="Grieg Retroporto">
+    <Departamento id="Geral">
+      <Funcionario>
+        <Nome>Pabx</Nome>
+        <Sigla> </Sigla>
+        <Local>GJA</Local>
+        <Ramal>718</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>Fax</Nome>
+        <Sigla> </Sigla>
+        <Local>GJA</Local>
+        <Ramal>3355-6291</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Compras">
+      <Funcionario>
+        <Nome>Henrique</Nome>
+        <Sigla> HVN</Sigla>
+        <Local>
+        </Local>
+        <Ramal>3201-1157</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Container Vazio">
+      <Funcionario>
+        <Nome>Mário</Nome>
+        <Sigla> ML</Sigla>
+        <Local>
+        </Local>
+        <Ramal>3347-7657</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Faturamento">
+      <Funcionario>
+        <Nome>Sandra</Nome>
+        <Sigla> SLS</Sigla>
+        <Local>
+        </Local>
+        <Ramal>3347-7659</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Gerência">
+      <Funcionario>
+        <Nome>Ramiro</Nome>
+        <Sigla> RM</Sigla>
+        <Local>
+        </Local>
+        <Ramal>3347-7650</Ramal>
+      </Funcionario>
+      <Funcionario>
+        <Nome>LuizBelarmino</Nome>
+        <Sigla> LBS</Sigla>
+        <Local>
+        </Local>
+        <Ramal>3347-7651</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Operações">
+      <Funcionario>
+        <Nome>Alba</Nome>
+        <Sigla> AMS</Sigla>
+        <Local>
+        </Local>
+        <Ramal>3347-7656</Ramal>
+      </Funcionario>
+    </Departamento>
+    <Departamento id="Qualidade">
+      <Funcionario>
+        <Nome>Sônia</Nome>
+        <Sigla> SHS</Sigla>
+        <Local>
+        </Local>
+        <Ramal>3347-7653</Ramal>
+      </Funcionario>
+    </Departamento>
+  </Empresa>
+</Ramais>

@@ -1,0 +1,104 @@
+﻿table {
+    width: "270px";
+}
+
+    table tr {
+        padding-left: 5px;
+    }
+
+        table tr td {
+            font-family: "Roboto",sans-serif;
+            font-size: 12px;
+        }
+
+.cabecalho {
+    color: #8fac03;
+    margin: 5px;
+    padding: 5px;
+    font-family: "Roboto",sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.titulo {
+    background: #244a72;
+    width: 230px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    color: #F6F6F6;
+    font-family: "Roboto",sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.titulo-fixed-width {
+    background: #35b04a;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+    color: #F6F6F6;
+    width: 230px;
+    font-family: "Roboto",sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.tituloCol {
+    padding: 5px;
+    text-align: left;
+    font-family: "Roboto",sans-serif;
+}
+
+.centralizaTexto {
+    text-align: center;
+}
+
+.departamento {
+    margin: 5px;
+    padding: 5px;
+    color: #F6F6F6;
+    border-radius: 25px;
+    box-shadow: 1px -1px 3px 2px #a1a1a1;
+    width: 270px;   
+}
+
+.space60 {
+    display: block;
+    width: 100%;
+    height: 60px;
+    float: left;
+}
+
+.empresa {
+    margin: 15px 8px 15px 8px;
+    padding: 5px;
+    float: left;
+    border-radius: 25px;
+    box-shadow: 1px -1px 3px 2px #a1a1a1;
+}
+.empresaSantos {
+    margin: 15px 8px 15px 8px;
+    padding: 25px;    
+    border-radius: 25px;
+    box-shadow: 1px -1px 3px 2px #a1a1a1;    
+    -webkit-column-width: 270px; /* Chrome, Safari, Opera */
+    -moz-column-width: 270px; /* Firefox */
+    column-width: 270px;
+   
+}
+
+tr {
+    margin: 20px;
+    padding: 20px;
+}
+
+td {
+    padding: 2px;
+}
+
+* {
+    color: black;
+}

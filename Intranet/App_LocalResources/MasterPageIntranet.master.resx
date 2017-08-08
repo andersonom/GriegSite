@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="aceInterno" xml:space="preserve">
+    <value>Acesso Interno</value>
+  </data>
+  <data name="autoRes" xml:space="preserve">
+    <value>Auto resposta</value>
+  </data>
+  <data name="blViaWeb" xml:space="preserve">
+    <value>B/L via web</value>
+  </data>
+  <data name="cobESA" xml:space="preserve">
+    <value>Cobertura e roteamento ESA</value>
+  </data>
+  <data name="conhecaEmpresa" xml:space="preserve">
+    <value>Conheça a nossa empresa</value>
+  </data>
+  <data name="dirReserv" xml:space="preserve">
+    <value>Empresas Grieg Todos os direitos reservados</value>
+  </data>
+  <data name="escolhaIdioma" xml:space="preserve">
+    <value>Escolha seu Idioma</value>
+  </data>
+  <data name="faleConosco" xml:space="preserve">
+    <value>Fale Conosco</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>GRIEG</value>
+  </data>
+  <data name="pesArea" xml:space="preserve">
+    <value>Pesquisa por Área</value>
+  </data>
+  <data name="pesPorto" xml:space="preserve">
+    <value>Pesquisa de Porto</value>
+  </data>
+  <data name="pesViagem" xml:space="preserve">
+    <value>Pesquisa de Viagem</value>
+  </data>
+  <data name="posNavios" xml:space="preserve">
+    <value>Posicão de Navios</value>
+  </data>
+  <data name="quemSomos" xml:space="preserve">
+    <value>Quem Somos</value>
+  </data>
+  <data name="rastCarga" xml:space="preserve">
+    <value>Rastreamento de Carga</value>
+  </data>
+  <data name="redesSociais" xml:space="preserve">
+    <value>A Grieg nas redes sociais</value>
+  </data>
+  <data name="servicos" xml:space="preserve">
+    <value>Serviços</value>
+  </data>
+  <data name="sisChamados" xml:space="preserve">
+    <value>Sistema de Chamados</value>
+  </data>
+  <data name="Texto1" xml:space="preserve">
+    <value>Aqui você poderá encontrar vários setores para auxiliá-lo, e informá-lo melhor tudo que acontece na Grieg.</value>
+  </data>
+  <data name="documentos" xml:space="preserve">
+    <value>Documentos</value>
+  </data>
+  <data name="InstUtil" xml:space="preserve">
+    <value>Instruções para utilização</value>
+  </data>
+  <data name="intranetGrupoGrieg" xml:space="preserve">
+    <value>Intranet Empresas Grieg</value>
+  </data>
+  <data name="iso" xml:space="preserve">
+    <value>ISO</value>
+  </data>
+  <data name="listCodCont" xml:space="preserve">
+    <value>Lista de codigos contabeis</value>
+  </data>
+  <data name="listRam" xml:space="preserve">
+    <value>Lista de ramais</value>
+  </data>
+  <data name="listTel" xml:space="preserve">
+    <value>Lista de telefones</value>
+  </data>
+  <data name="listTelCad" xml:space="preserve">
+    <value>Lista de tel. cadastrados</value>
+  </data>
+  <data name="manOp" xml:space="preserve">
+    <value>Manual de operações</value>
+  </data>
+  <data name="manuais" xml:space="preserve">
+    <value>Manuais</value>
+  </data>
+  <data name="modeloAutoResposta" xml:space="preserve">
+    <value>Modelo Auto Resposta</value>
+  </data>
+  <data name="regulam" xml:space="preserve">
+    <value>Regulamento</value>
+  </data>
+  <data name="telefones" xml:space="preserve">
+    <value>Telefones</value>
+  </data>
+  <data name="Texto2" xml:space="preserve">
+    <value>A intranet é o principal setor para os funcionários da Grieg, este pode ser considerado o seu site, por isso, é muito importante a sua participação. Envie idéias, em que sentido o seu setor pode ajudar, envie textos, envie reclamações. Faça desta parte do site um auxiliar do seu serviço e do seus colegas de empresa.</value>
+  </data>
+  <data name="boletoWeb" xml:space="preserve">
+    <value>Pagamento via Boleto</value>
+  </data>
+  <data name="detNavios" xml:space="preserve">
+    <value>Detalhes de Navios</value>
+  </data>
+  <data name="taxas" xml:space="preserve">
+    <value>Taxas</value>
+  </data>
+  <data name="taxaDolar" xml:space="preserve">
+    <value>Taxa do Dolar </value>
+  </data>
+  <data name="taxaPagamento" xml:space="preserve">
+    <value>Taxa para Pagamentos</value>
+  </data>
+  <data name="avisoTaxa" xml:space="preserve">
+    <value>Obs.: Taxa válida somente para pagamentos nesta data e poderá sofrer alteração sem aviso prévio.</value>
+  </data>
+  <data name="bookingViaWeb" xml:space="preserve">
+    <value>Booking via web</value>
+  </data>
+</root>

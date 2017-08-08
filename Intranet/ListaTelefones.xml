@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="ListaTelefones.xsl"?>
+<Telefones>
+  <Empresa id="GRIEG SANTOS">
+    <Funcionario>
+      <Nome>ADRIANA - FALTAS E AVARIAS</Nome>
+      <Tel1>13-98801-0697</Tel1>
+      <Tel2>13-3236-8309</Tel2>
+    </Funcionario>
+    <Funcionario>
+      <Nome>ALEXANDER - VISITA</Nome>
+      <Tel1>13-99716-7965</Tel1>
+      <Tel2 />
+    </Funcionario>
+    <Funcionario>
+      <Nome>BILLY - GERÊNCIA</Nome>
+      <Tel1>13-99741-1591</Tel1>
+      <Tel2>13-3289-7449</Tel2>
+    </Funcionario>
+    <Funcionario>
+      <Nome>CARLOS ALBERTO - OPERAÇÕES</Nome>
+      <Tel1>13-99716-7972</Tel1>
+      <Tel2>13-3468-7375</Tel2>
+    </Funcionario>
+    <Funcionario>
+      <Nome>CLÁUDIO - CUSTEIO</Nome>
+      <Tel1>13-99122-1123</Tel1>
+      <Tel2>13-3021-8366</Tel2>
+    </Funcionario>
+    <Funcionario>
+      <Nome>CRISTIANO - CÂMBIO</Nome>
+      <Tel1>13-98138-8506</Tel1>
+      <Tel2>13-3361-9688</Tel2>
+    </Funcionario>
+    <Funcionario>
+      <Nome>DÁCIO - TI</Nome>
+      <Tel1>13-99716-8452</Tel1>
+      <Tel2>13-3271-6415</Tel2>
+    </Funcionario>
+    <Funcionario>
+      <Nome>FÁBIO - CONTAINER</Nome>
+      <Tel1>13-99105-1476</Tel1>
+      <Tel2>13-3342-5532</Tel2>
+    </Funcionario>
+    <Funcionario>
+      <Nome>GLEN</Nome>
+      <Tel1>13-99716-8014</Tel1>
+      <Tel2>13-3271-3887</Tel2>
+    </Funcionario>
+    <Funcionario>
+      <Nome>JORGE MARIANO</Nome>
+      <Tel1>13-99714-6872</Tel1>
+      <Tel2>13-3227-5343</Tel2>
+    </Funcionario>
+    <Funcionario>
+      <Nome>LUIZ - OPERAÇÕES</Nome>
+      <Tel1>13-98209-0440</Tel1>
+      <Tel2 />
+    </Funcionario>
+    <Funcionario>
+      <Nome>LUIZ CLÁUDIO - EXPORTAÇÃO</Nome>
+      <Tel1>13-99740-0435</Tel1>
+      <Tel2>13-3261-2910</Tel2>
+    </Funcionario>
+    <Funcionario>
+      <Nome>MARÇAL - TI</Nome>
+      <Tel1>11-97548-6970</Tel1>
+      <Tel2 />
+    </Funcionario>
+    <Funcionario>
+      <Nome>MARCO ANTONIO - DP</Nome>
+      <Tel1>13-99799-0079</Tel1>
+      <Tel2>13-2202-3010</Tel2>
+    </Funcionario>
+    <Funcionario>
+      <Nome>MAURÍCIO - OPERAÇÕES</Nome>
+      <Tel1>13-99716-7973</Tel1>
+      <Tel2>13-3235-3697</Tel2>
+    </Funcionario>
+    <Funcionario>
+      <Nome>NARCIZO - MANUTENÇÃO</Nome>
+      <Tel1>13-99716-7974</Tel1>
+      <Tel2 />
+    </Funcionario>
+    <Funcionario>
+      <Nome>RICARDO - TESOURARIA</Nome>
+      <Tel1>13-99751-9737</Tel1>
+      <Tel2>13-3363-1149</Tel2>
+    </Funcionario>
+    <Funcionario>
+      <Nome>RODRIGO - TI</Nome>
+      <Tel1>13-99716-8453</Tel1>
+      <Tel2 />
+    </Funcionario>
+    <Funcionario>
+      <Nome>SHEILA - CONTAS A PAGAR</Nome>
+      <Tel1>13-99787-5788</Tel1>
+      <Tel2>13-3225-6118</Tel2>
+    </Funcionario>
+    <Funcionario>
+      <Nome>THALES FRAGUGLIA - IMPORTAÇÃO</Nome>
+      <Tel1>13-97409-2026 </Tel1>
+      <Tel2></Tel2>
+    </Funcionario>
+    <Funcionario>
+      <Nome>VITOR SOUZA - IMPORTAÇÃO</Nome>
+      <Tel1>13-98142-6862 </Tel1>
+      <Tel2></Tel2>
+    </Funcionario>
+    <Funcionario>
+      <Nome>WANDA - CONTABILIDADE</Nome>
+      <Tel1>13-99705-4243</Tel1>
+      <Tel2>13-3561-2208</Tel2>
+    </Funcionario>
+    <Funcionario>
+      <Nome>MARIA CRISTINA - SECRETARIA</Nome>
+      <Tel1>13-98116-3097</Tel1>
+      <Tel2>13-3284-4934</Tel2>
+    </Funcionario>
+    <Funcionario>
+      <Nome>CAROLINA - SECRETARIA</Nome>
+      <Tel1>13-99172-7797</Tel1>
+      <Tel2>13-3349-5561</Tel2>
+    </Funcionario>
+    <Funcionario>
+      <Nome>GUILHERME - TI</Nome>
+      <Tel1>13-99788-7828</Tel1>
+      <Tel2></Tel2>
+    </Funcionario>
+  </Empresa>
+  <Empresa id="GRIEG SÃO PAULO">
+    <Funcionario>
+      <Nome>AMÉRICO F. FILHO</Nome>
+      <Tel1>11-99629-1162</Tel1>
+      <Tel2>11-5523-1015</Tel2>
+    </Funcionario>
+    <Funcionario>
+      <Nome>FRED P. ENGELHART</Nome>
+      <Tel1>11-99902-3348</Tel1>
+      <Tel2>11-3081-9411</Tel2>
+    </Funcionario>
+    <Funcionario>
+      <Nome>FRED P. ENGELHART</Nome>
+      <Tel1>24-2221-2193</Tel1>
+      <Tel2>21-2239-9054</Tel2>
+    </Funcionario>
+    <Funcionario>
+      <Nome>LUIZ BERTECHINI </Nome>
+      <Tel1>11-99940-3777</Tel1>
+      <Tel2>11-3392-5656</Tel2>
+    </Funcionario>
+    <Funcionario>
+      <Nome>MARIA TERESA BINNIE</Nome>
+      <Tel1 />
+      <Tel2>11-3214-0657</Tel2>
+    </Funcionario>
+    <Funcionario>
+      <Nome>PAULO CELSO COSTA</Nome>
+      <Tel1>19-99707-8470</Tel1>
+      <Tel2>19-3546-1896</Tel2>
+    </Funcionario>
+    <Funcionario>
+      <Nome>PAULO ZIMOLO</Nome>
+      <Tel1>11-99940-3778</Tel1>
+      <Tel2 />
+    </Funcionario>
+    <Funcionario>
+      <Nome>ROBERTO EKRES </Nome>
+      <Tel1>11-99940-3776</Tel1>
+      <Tel2>11-3862-6025</Tel2>
+    </Funcionario>
+    <Funcionario>
+      <Nome>ROBERTO EKRES (SÃO ROQUE)</Nome>
+      <Tel1 />
+      <Tel2>11-4714-0638</Tel2>
+    </Funcionario>
+  </Empresa>
+  <Empresa id="TECON">
+    <Funcionario>
+      <Nome>JOSÉ CARLOS </Nome>
+      <Tel1>13-99716-7961</Tel1>
+      <Tel2 />
+    </Funcionario>
+  </Empresa>
+  <Empresa id="GRIEG PARANAGUÁ">
+    <Funcionario>
+      <Nome>JEAN FAM FILHO</Nome>
+      <Tel1>41-9911-0466</Tel1>
+      <Tel2>41-3339-9794</Tel2>
+    </Funcionario>
+    <Funcionario>
+      <Nome>PAULO HENRIQUE</Nome>
+      <Tel1>41-9911-0935</Tel1>
+      <Tel2>41-3339-9794</Tel2>
+    </Funcionario>
+  </Empresa>
+  <Empresa id="GRIEG CURITIBA">
+    <Funcionario>
+      <Nome>JEAN FAM FILHO</Nome>
+      <Tel1>41-9911-0466</Tel1>
+      <Tel2>41-3339-9794</Tel2>
+    </Funcionario>
+  </Empresa>
+  <Empresa id="GRIEG PORTO ALEGRE">
+    <Funcionario>
+      <Nome>FLÁVIO GILBERTO HAESBAERT</Nome>
+      <Tel1>51-8162-0112</Tel1>
+      <Tel2>51-3589-6022</Tel2>
+    </Funcionario>
+  </Empresa>
+  <Empresa id="GRIEG ITAJAÍ">
+    <Funcionario>
+      <Nome>CELINA M.S.CANO</Nome>
+      <Tel1>47-8408-0291</Tel1>
+      <Tel2>47-3346-3125</Tel2>
+    </Funcionario>
+    <Funcionario>
+      <Nome>RODRIGO DE SOUZA</Nome>
+      <Tel1>47-8408-0432</Tel1>
+      <Tel2>47-3348-4284</Tel2>
+    </Funcionario>
+  </Empresa>
+  <Empresa id="LION LOGISTICS - SPO">
+    <Funcionario>
+      <Nome>FÁTIMA</Nome>
+      <Tel1>11-97224-2482</Tel1>
+      <Tel2 />
+    </Funcionario>
+    <Funcionario>
+      <Nome>ROSANA</Nome>
+      <Tel1>11-97353-3613</Tel1>
+      <Tel2 />
+    </Funcionario>
+    <Funcionario>
+      <Nome>SÉRGIO</Nome>
+      <Tel1>11-96910-7213</Tel1>
+      <Tel2 />
+    </Funcionario>
+    <Funcionario>
+      <Nome>CARLOS </Nome>
+      <Tel1>11-96392-6284   </Tel1>
+      <Tel2 />
+    </Funcionario>
+  </Empresa>
+  <Empresa id="EVERGREEN'S REPRESENTATIVES">
+    <Funcionario>
+      <Nome>CAPT. CHEN</Nome>
+      <Tel1>13-99716-7986</Tel1>
+      <Tel2 />
+    </Funcionario>
+    <Funcionario>
+      <Nome>VINCENT CHENG</Nome>
+      <Tel1>11-99635-9902</Tel1>
+      <Tel2 />
+    </Funcionario>
+  </Empresa>
+  <Empresa id="GRIEG RETROPORTO">
+    <Funcionario>
+      <Nome>LUIZ BELARMINO ID:10664</Nome>
+      <Tel1>13-99639-3457</Tel1>
+      <Tel2>13-3877-9103</Tel2>
+    </Funcionario>
+    <Funcionario>
+      <Nome>RAMIRO MAROTE</Nome>
+      <Tel1>13-99785-6893</Tel1>
+      <Tel2>13-3284-4441</Tel2>
+    </Funcionario>
+  </Empresa>
+  <Empresa id="MERIDIONAL MARÍTIMA">
+    <Funcionario>
+      <Nome>FLAVIO GOMES</Nome>
+      <Tel1>13-99788-7555</Tel1>
+      <Tel2>13-3261-4797</Tel2>
+    </Funcionario>
+  </Empresa>
+</Telefones>

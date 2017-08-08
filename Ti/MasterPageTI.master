@@ -1,0 +1,311 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageTI.master.cs" Inherits="Ti_MasterPageTI" %>
+
+<!DOCTYPE html>
+
+<head runat="server">
+    <title></title>
+    <style>
+        body,
+        .menu,
+        .sub-menu {
+        }
+
+        .clearfix:after {
+            content: '.';
+            display: block;
+            clear: both;
+            height: 0;
+            line-height: 0;
+            font-size: 0;
+            visibility: hidden;
+            overflow: hidden;
+        }
+
+        .menu li:hover > .sub-menu {
+            display: block;
+        }
+
+        .sub-menu {
+            display: none;
+            position: absolute;
+            list-style: none;
+            border-radius: 5px 5px 5px 5px;
+            background: #244a72;
+            margin-top: -5px;
+            padding: 10px 0;
+            z-index: 30;
+            text-align: left;
+        }
+
+            .sub-menu .sub-menu {
+                top: 0;
+                left: 100%;
+            }
+    </style>
+    <link type='text/css' rel="stylesheet" href="../css/style.css" />
+    <link type='text/css' rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:400,300' />
+    <link type='text/css' rel="stylesheet" href="../css/fontello/css/fontello.css" />
+    <link type='text/css' rel="stylesheet" href="../css/fontello/css/animation.css" />
+
+    <script src="../js/html5.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="../js/jquery.cycle.all.js"></script>
+    <script src="../js/querystring-0.9.0-min.js"></script>
+
+    <script>
+        var CKfinderBasePath = "/editor/ckfinder/";
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <div class="main">
+                <div class="wrapper">
+
+                    <div class="grid grid-last language grid-24">
+
+                        <p class="global-label" style="float: left">
+                            <asp:Literal runat="server" Text="<%$ Resources:escolhaIdioma %>" />
+                        </p>
+
+                        <a href="Default.aspx?lang=pt" class="language-flag language-br" id="btnPort"></a>
+                        <a href="Default.aspx?lang=en" class="language-flag language-en" id="btnEng"></a>
+
+                    </div>
+
+                    <grid class="grid grid-6">
+
+			<h1 class="logo">
+				<a href="../Default.aspx">
+					<img src="../images/logo-grieg.png" alt="" />
+				</a>
+			</h1>
+		</grid>
+
+                    <grid class="grid-18 right">
+		<div class="grid grid-last right social" style="display:none">                  
+					<p class="global-label"><asp:Literal runat="server" Text="<%$ Resources:redesSociais %>" /></p>
+				<a href="" class="social-ico social-fb icon-facebook"></a>
+				<a href="" class="social-ico social-tw icon-twitter"></a>    
+			</div>              
+                         
+                    <menu class="grid grid-18 no-bullet menu">
+                        <ul class="menu clearfix">
+                            <li class="menu-item"><span class="menu-link">Santos</span>
+                                <!-- Nível 1 -->
+                                <!-- submenu -->
+                                <ul class="sub-menu clearfix">
+                                    <li class="menu-sub-item"><span class="menu-sub-link">Links ></span>
+                                        <!-- Nível 2 -->
+                                        <!-- submenu do submenu -->
+                                        <ul class="sub-menu no-bullet">
+                                            <li class="menu-sub-item"><a href="http://griegwall.grieg.com.br/mrtg/localhost_3.html" class="menu-sub-link" target="_blank">Embratel</a>
+                                                <!-- Nível 3 -->
+                                                <!-- submenu do submenu do submenu -->
+                                                <!--<ul class="sub-menu"> -->
+                                                <!--<li><a href="#">Sub Sub</a></li> -->
+                                                <!--</ul>-->
+                                                <!-- submenu do submenu do submenu -->
+                                            </li>
+                                            <li class="menu-sub-item"><a href="http://griegwall.grieg.com.br/mrtg/localhost_2.html" class="menu-sub-link" target="_blank">Local</a></li>
+                                            <li class="menu-sub-item"><a href="http://griegwall.grieg.com.br/mrtg/localhost_1.html" class="menu-sub-link" target="_blank">EMC</a></li>
+                                        </ul>
+                                        <!-- submenu do submenu -->
+                                    </li>
+                                    <li><span class="menu-sub-link">Switchs ></span>
+                                        <ul class="sub-menu no-bullet">
+                                            <li class="menu-sub-item"><a href="http://172.16.7.241/xhome.htm" class="menu-sub-link" target="_blank">SW 1 - Ti          </a></li>
+                                            <li class="menu-sub-item"><a href="http://172.16.7.242/" class="menu-sub-link" target="_blank">SW 2 - Ti                   </a></li>
+                                            <li class="menu-sub-item"><a href="http://172.16.7.243/" class="menu-sub-link" target="_blank">SW 3 - Ti                   </a></li>
+                                            <li class="menu-sub-item"><a href="http://172.16.7.244/" class="menu-sub-link" target="_blank">SW 4 - Telefonista           </a></li>
+                                            <li class="menu-sub-item"><a href="http://172.16.7.245/" class="menu-sub-link" target="_blank">SW 5 - Custeio               </a></li>
+                                            <li class="menu-sub-item"><a href="http://172.16.7.246/" class="menu-sub-link" target="_blank">SW 6 - Custeio              </a></li>
+                                            <li class="menu-sub-item"><a href="http://172.16.7.247/" class="menu-sub-link" target="_blank">SW 7 - Caixa                </a></li>
+                                            <li class="menu-sub-item"><a href="http://172.16.7.249/" class="menu-sub-link" target="_blank">SW 8 - Meridional            </a></li>
+                                            <li class="menu-sub-item"><a href="http://172.16.5.150/" class="menu-sub-link" target="_blank">Wireless - Secretaria        </a></li>
+                                            <li class="menu-sub-item"><a href="http://172.16.5.151/" class="menu-sub-link" target="_blank">Wireless - Ti               </a></li>
+                                            <li class="menu-sub-item"><a href="http://172.16.7.150/" class="menu-sub-link" target="_blank">Wireless - Sala de Reunião 4º  </a></li>
+                                            <li class="menu-sub-item"><a href="http://172.16.7.150/" class="menu-sub-link" target="_blank">Wireless - Sala de Reunião 1º" </a></li>
+                                        </ul>
+                                    </li>
+                                    <li><span class="menu-sub-link">Print Servers ></span>
+                                        <ul class="sub-menu no-bullet">
+                                            <li class="menu-sub-item"><a href="http://172.16.5.229/" class="menu-sub-link" target="_blank">Exportação	</a></li>
+                                            <li class="menu-sub-item"><a href="http://172.16.5.223/" class="menu-sub-link" target="_blank">Custeio 	  		</a></li>
+                                            <li class="menu-sub-item"><a href="http://172.16.5.225/" class="menu-sub-link" target="_blank">Dep. Pessoal		    </a></li>
+                                            <li class="menu-sub-item"><a href="http://172.16.5.226/" class="menu-sub-link" target="_blank">Brother Contabil	</a></li>
+                                            <li class="menu-sub-item"><a href="http://172.16.5.227/" class="menu-sub-link" target="_blank">Brother Container	</a></li>
+                                            <li class="menu-sub-item"><a href="http://172.16.5.228/" class="menu-sub-link" target="_blank">Secretaria			</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://griegwall.grieg.com.br/bandwidthd/htdocs/" class="menu-sub-link" target="_blank">Bandwidthd 	  </a></li>
+                                    <li><a href="http://200.210.172.194:10300" class="menu-sub-link" target="_blank">Ntop! 	 	</a></li>
+                                    <li><a href="https://172.16.7.11:1311" class="menu-sub-link" target="_blank">Oracle Dell	</a></li>
+                                    <li><a href="http://griegwall.grieg.com.br/cgi-bin/mailgraph.cgi" class="menu-sub-link" target="_blank">Mail Graph 	</a></li>
+                                    <li><a href="http://griegwall.grieg.com.br/sarg/" class="menu-sub-link" target="_blank">SARG 		</a></li>
+                                    <li><a href="http://ldap.grieg.com.br/contatos/" class="menu-sub-link" target="_blank">LDAP 		</a></li>
+                                    <li><a href="http://webmail.grieg.com.br/mailadmin/" class="menu-sub-link" target="_blank">Postfix Admin </a></li>
+                                    <li><a href="http://griegwall.grieg.com.br/phpmyadmin/" class="menu-sub-link" target="_blank">MySQL Admin   </a></li>
+                                    <li><a href="http://webmail.grieg.com.br" class="menu-sub-link" target="_blank">Webmail 	</a></li>
+                                    <li><a href="http://webmail.grieg.com.br/datacenter.php" class="menu-sub-link" target="_blank">SMB Dados 	</a></li>
+                                    <li><a href="http://www.grieg.com.br/chamados/suporte/" class="menu-sub-link" target="_blank">Chamados 	</a></li>
+                                </ul>
+                                <!-- submenu -->
+                            </li>
+                            <li class="menu-item"><span class="menu-link">Guarujá</span>
+
+                                <ul class="sub-menu clearfix">
+                                    <li class="menu-sub-item"><a href="http://wall.griegretroporto.com.br/mrtg/localhost_1.html" class="menu-sub-link">Santos X Guarujá</a>
+                                    </li>
+                                    <li class="menu-sub-item"><span class="menu-sub-link">Antenas ></span>
+                                        <ul class="sub-menu no-bullet">
+                                            <li class="menu-sub-item"><a href="http://172.16.5.76/" class="menu-sub-link" target="_blank">Antena 1 - Guarita</a></li>
+                                            <li class="menu-sub-item"><a href="http://172.16.5.77/" class="menu-sub-link" target="_blank">Antena 2 - Pátio</a></li>
+                                            <li class="menu-sub-item"><a href="http://172.16.5.78/" class="menu-sub-link" target="_blank">Antena 3 - Oficina</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://172.16.5.100/" class="menu-sub-link" target="_blank">Brother	</a></li>
+                                    <li><a href="http://172.16.5.101/" class="menu-sub-link" target="_blank">Brother 2</a> </li>
+                                    <li><a href="http://172.16.5.102/" class="menu-sub-link" target="_blank">Brother 3</a> </li>
+                                    <li><a href="http://172.16.5.250" class="menu-sub-link" target="_blank">Switch 1</a> </li>
+                                    <li><a href="http://172.16.5.251" class="menu-sub-link" target="_blank">Switch 2</a> </li>
+                                    <li><a href="http://wall.griegretroporto.com.br/bandwidthd/htdocs/" class="menu-sub-link" target="_blank">Bandwidthd</a> </li>
+                                    <li><a href="http://wall.griegretroporto.com.br:10300" class="menu-sub-link" target="_blank">Ntop!</a> </li>
+                                    <li><a href="http://wall.griegretroporto.com.br/cgi-bin/mailgraph.cgi" class="menu-sub-link" target="_blank">Mail Graph</a> </li>
+                                    <li><a href="http://wall.griegretroporto.com.br/sarg/" class="menu-sub-link" target="_blank">SARG</a> </li>
+                                    <li><a href="http://wall.griegretroporto.com.br/scanhill/" class="menu-sub-link" target="_blank">Scanhill</a> </li>
+                                    <li><a href="http://webmail.griegretroporto.com.br/mailadmin/" class="menu-sub-link" target="_blank">Postfix Admin</a> </li>
+                                    <li><a href="http://wall.griegretroporto.com.br/phpmyadmin/" class="menu-sub-link" target="_blank">MySQL Admin</a> </li>
+                                    <li><a href="http://webmail.griegretroporto.com.br" class="menu-sub-link" target="_blank">Webmail</a> </li>
+                                    <li><a href="http://webmail.griegretroporto.com.br/datacenter.php" class="menu-sub-link" target="_blank">SMB Dados</a> </li>
+
+                                </ul>
+
+                            </li>
+                            <li class="menu-item"><span class="menu-link">São Paulo</span>
+
+                                <ul class="sub-menu clearfix">
+                                    <li><a href="http://wallspo.grieg.com.br/mrtg/localhost_1.html" class="menu-sub-link" target="_blank">Link Internet</a></li>
+                                    <li><a href="http://wallspo.grieg.com.br/bandwidthd/htdocs/" class="menu-sub-link" target="_blank">Bandwidthd</a></li>
+                                    <li><a href="http://wallspo.grieg.com.br:10300" class="menu-sub-link" target="_blank">Ntop!</a></li>
+                                    <li><a href="http://wallspo.grieg.com.br/cgi-bin/mailgraph.cgi" class="menu-sub-link" target="_blank">Mail Graph</a></li>
+                                    <li><a href="http://wallspo.grieg.com.br/sarg/" class="menu-sub-link" target="_blank">SARG</a></li>
+                                    <li><a href="http://wallspo.grieg.com.br/scanhill/" class="menu-sub-link" target="_blank">Scanhill</a></li>
+                                    <li><a href="http://mailspo.grieg.com.br/mailadmin/" class="menu-sub-link" target="_blank">Postfix Admin</a></li>
+                                    <li><a href="http://mailspo.grieg.com.br/phpmyadmin/" class="menu-sub-link" target="_blank">MySQL Admin</a></li>
+                                    <li><a href="http://mailspo.grieg.com.br" class="menu-sub-link" target="_blank">Webmail</a></li>
+                                    <li><a href="http://mailspo.grieg.com.br/datacenter.php" class="menu-sub-link" target="_blank">SMB Dados</a></li>
+                                </ul>
+
+                            </li>
+                            <li class="menu-item"><span class="menu-link">Curitiba</span>
+                                <ul class="sub-menu clearfix">
+                                    <li><a href="http://wallcwb.grieg.com.br/mrtg/localhost_5.html" class="menu-sub-link" target="_blank">Link Internet</a></li>
+                                    <li><a href="http://wallcwb.grieg.com.br/bandwidthd/htdocs/" class="menu-sub-link" target="_blank">Bandwidthd</a></li>
+                                    <li><a href="http://wallcwb.grieg.com.br/cgi-bin/mailgraph.cgi" class="menu-sub-link" target="_blank">Mail Graph</a></li>
+                                    <li><a href="http://wallcwb.grieg.com.br/sarg/" class="menu-sub-link" target="_blank">SARG</a></li>
+                                    <li><a href="http://mailcwb.grieg.com.br/mailadmin/" class="menu-sub-link" target="_blank">Postfix Admin</a></li>
+                                    <li><a href="http://mailcwb.grieg.com.br/phpmyadmin/" class="menu-sub-link" target="_blank">MySQL Admin</a></li>
+                                    <li><a href="http://mailcwb.grieg.com.br/" class="menu-sub-link" target="_blank">Webmail</a></li>
+                                    <li><a href="http://mailcwb.grieg.com.br/datacenter.php" class="menu-sub-link" target="_blank">SMB Dados</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item"><span class="menu-link">Itajai</span>
+                                <ul class="sub-menu clearfix">
+                                    <li><a href="http://wallitj.grieg.com.br/mrtg/localhost_1.html" class="menu-sub-link" target="_blank">Link Internet</a></li>
+                                    <li><a href="http://wallitj.grieg.com.br/bandwidthd/htdocs/" class="menu-sub-link" target="_blank">Bandwidthd</a></li>
+                                    <li><a href="http://wallitj.grieg.com.br:10300" class="menu-sub-link" target="_blank">Ntop!</a></li>
+                                    <li><a href="http://wallitj.grieg.com.br/cgi-bin/mailgraph.cgi" class="menu-sub-link" target="_blank">Mail Graph</a></li>
+                                    <li><a href="http://wallitj.grieg.com.br/sarg/" class="menu-sub-link" target="_blank">SARG</a></li>
+                                    <li><a href="http://wallitj.grieg.com.br/scanhill/" class="menu-sub-link" target="_blank">Scanhill</a></li>
+                                    <li><a href="http://mailitj.grieg.com.br/mailadmin/" class="menu-sub-link" target="_blank">Postfix Admin</a></li>
+                                    <li><a href="http://wallitj.grieg.com.br/phpmyadmin/" class="menu-sub-link" target="_blank">MySQL Admin</a></li>
+                                    <li><a href="http://mailitj.grieg.com.br" class="menu-sub-link" target="_blank">Webmail</a></li>
+                                    <li><a href="http://mailitj.grieg.com.br/datacenter.php" class="menu-sub-link" target="_blank">SMB Dados</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item"><span class="menu-link">Paranagua</span>
+                                <ul class="sub-menu clearfix">
+                                    <li><a href="http://wallpng.grieg.com.br/mrtg/localhost_1.html" class="menu-sub-link" target="_blank">Link Internet</a></li>
+                                    <li><a href="http://wallpng.grieg.com.br/bandwidthd/htdocs/" class="menu-sub-link" target="_blank">Bandwidthd</a></li>
+                                    <li><a href="http://wallpng.grieg.com.br:10300" class="menu-sub-link" target="_blank">Ntop!</a></li>
+                                    <li><a href="http://wallpng.grieg.com.br/cgi-bin/mailgraph.cgi" class="menu-sub-link" target="_blank">Mail Graph</a></li>
+                                    <li><a href="http://wallpng.grieg.com.br/sarg/" class="menu-sub-link" target="_blank">SARG</a></li>
+                                    <li><a href="http://wallpng.grieg.com.br/scanhill/" class="menu-sub-link" target="_blank">Scanhill</a></li>
+                                    <li><a href="http://mailpng.grieg.com.br/mailadmin/" class="menu-sub-link" target="_blank">Postfix Admin</a></li>
+                                    <li><a href="http://wallpng.grieg.com.br/phpmyadmin/" class="menu-sub-link" target="_blank">MySQL Admin</a></li>
+                                    <li><a href="http://mailpng.grieg.com.br" class="menu-sub-link" target="_blank">Webmail</a></li>
+                                    <li><a href="http://mailpng.grieg.com.br/datacenter.php" class="menu-sub-link" target="_blank">SMB Dados</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item"><span class="menu-link">Tools</span>
+                                <ul class="sub-menu clearfix">
+                                    <li><a href="GeraPass.aspx" class="menu-sub-link">Gerador de senhas</a></li>
+                                    <li><a href="ValidaEmail.aspx" class="menu-sub-link">Validar E-mails</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </menu>
+            
+
+		</grid>
+                </div>
+            </div>
+            <div class="wrapper headpage">
+                <h2 class="headpage-title">TI</h2>
+
+                <%--  <ul class="no-bullet breadcrumb">
+                <li class="breadcrumb-item"><span class="breadcrumb-label">Você está em:</span></li>
+                <li class="breadcrumb-item"><a href="../Default.aspx" class="breadcrumb-link">Home</a></li>
+                <li class="breadcrumb-item"><span class="breadcrumb-label">Quem Somos</span></li>
+            </ul>--%>
+            </div>
+        </header>
+
+        <section>
+
+            <div class="wrapper">
+
+                <h3 class="title">
+                    <asp:Literal runat="server" Text="Administração TI" /></h3>
+
+             
+
+            </div>
+        </section>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <footer>
+            <div class="wrapper">
+                <div class="grid grid-24 grid-last">
+                    <div class="grid grid-3">
+                        <img src="../images/logo-grieg.png" alt="" class="logo">
+                    </div>
+
+                    <div class="grid grid-10 grid-offset-1 social" style="display: none">
+                        <a href="" class="social-ico social-fb icon-facebook"></a>
+                        <a href="" class="social-ico social-tw icon-twitter"></a>
+                        <p class="global-label">A Grieg nas redes sociais</p>
+                    </div>
+                </div>
+                <div class="grid grid-24">
+                    <p class="footer-label">Empresas Grieg Todos os direitos reservados</p>
+                </div>
+            </div>
+        </footer>
+    </form>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68880694-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+	</body>
